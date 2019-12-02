@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MaterialDesignApp</string>
+    <string name="raised">Raised</string>
+    <string name="borderless">Borderless</string>
+    <string name="border">Border</string>
+    <string name="tinted">Tinted</string>
 </resources>
