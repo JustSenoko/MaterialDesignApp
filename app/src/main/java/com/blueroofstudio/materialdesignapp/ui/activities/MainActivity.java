@@ -1,10 +1,11 @@
-package com.blueroofstudio.materialdesignapp;
+package com.blueroofstudio.materialdesignapp.ui.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 
+import com.blueroofstudio.materialdesignapp.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 
