@@ -1,4 +1,4 @@
-package com.blueroofstudio.materialdesignapp.ui.progressbar;
+package com.blueroofstudio.materialdesignapp.ui.fragments.progressbar;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

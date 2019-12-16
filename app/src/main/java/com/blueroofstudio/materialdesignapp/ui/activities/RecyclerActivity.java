@@ -3,7 +3,7 @@ package com.blueroofstudio.materialdesignapp.ui.activities;
 import android.os.Bundle;
 
 import com.blueroofstudio.materialdesignapp.providers.FruitDataProvider;
-import com.blueroofstudio.materialdesignapp.ui.recyclerview.RVAdapter;
+import com.blueroofstudio.materialdesignapp.ui.adapters.RVAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
