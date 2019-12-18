@@ -1,4 +1,4 @@
-package com.blueroofstudio.materialdesignapp.ui.recyclerview;
+package com.blueroofstudio.materialdesignapp.ui.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;

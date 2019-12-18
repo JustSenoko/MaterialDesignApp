@@ -1,4 +1,4 @@
-package com.blueroofstudio.materialdesignapp.ui.progressbar;
+package com.blueroofstudio.materialdesignapp.ui.fragments.progressbar;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.blueroofstudio.materialdesignapp.R;
+import com.blueroofstudio.materialdesignapp.ui.fragments.progressbar.ProgressBarViewModel;
 import com.google.android.material.button.MaterialButton;
 
 public class ProgressBarFragment extends Fragment {
