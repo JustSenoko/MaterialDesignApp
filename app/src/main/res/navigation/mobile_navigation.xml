@@ -17,4 +17,10 @@
         android:label="@string/menu_map"
         tools:layout="@layout/fragment_text" />
 
+    <fragment
+        android:id="@+id/nav_tab3"
+        android:name="com.blueroofstudio.materialdesignapp.ui.fragments.tab3.Tab3Fragment"
+        android:label="@string/menu_tab3"
+        tools:layout="@layout/fragment_text" />
+
 </navigation>
