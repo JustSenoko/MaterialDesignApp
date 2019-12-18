@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".CollapsingActivity"
-            android:label="CollapsingActivity"
+            android:name=".ui.activities.RecyclerActivity"
+            android:label="@string/title_activity_recycler"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,18 +20,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".NavigationDrawerActivity"
+            android:name=".ui.activities.CollapsingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activities.NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
-            android:name=".ButtonActivity"
+            android:name=".ui.activities.ButtonActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
     </application>

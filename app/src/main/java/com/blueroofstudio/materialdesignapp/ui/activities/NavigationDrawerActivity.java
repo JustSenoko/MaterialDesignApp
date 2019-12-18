@@ -1,7 +1,8 @@
-package com.blueroofstudio.materialdesignapp;
+package com.blueroofstudio.materialdesignapp.ui.activities;
 
 import android.os.Bundle;
 
+import com.blueroofstudio.materialdesignapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 

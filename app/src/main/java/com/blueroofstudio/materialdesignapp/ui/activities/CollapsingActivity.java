@@ -1,9 +1,11 @@
-package com.blueroofstudio.materialdesignapp;
+package com.blueroofstudio.materialdesignapp.ui.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+
+import com.blueroofstudio.materialdesignapp.R;
 
 public class CollapsingActivity extends AppCompatActivity {
 

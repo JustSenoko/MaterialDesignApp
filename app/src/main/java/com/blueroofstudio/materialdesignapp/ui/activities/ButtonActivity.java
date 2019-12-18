@@ -1,4 +1,4 @@
-package com.blueroofstudio.materialdesignapp;
+package com.blueroofstudio.materialdesignapp.ui.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+
+import com.blueroofstudio.materialdesignapp.R;
 
 import java.util.Objects;
 
