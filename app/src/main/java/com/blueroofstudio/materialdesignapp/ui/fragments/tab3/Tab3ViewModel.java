@@ -1,16 +1,16 @@
-package com.blueroofstudio.materialdesignapp.ui.map;
+package com.blueroofstudio.materialdesignapp.ui.fragments.tab3;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class MapViewModel extends ViewModel {
+public class Tab3ViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public MapViewModel() {
+    public Tab3ViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is map fragment");
+        mText.setValue("This is fragment 3");
     }
 
     public LiveData<String> getText() {

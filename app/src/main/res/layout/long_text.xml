@@ -10,5 +10,5 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/long_text" />
+        android:text="@string/large_text" />
 </androidx.core.widget.NestedScrollView>

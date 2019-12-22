@@ -14,8 +14,21 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="MyAppTheme" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/myThemeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/myThemeColorPrimaryDark</item>
+        <item name="colorAccent">@color/myThemeColorAccent</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="BtnStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">?attr/colorAccent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 
 </resources>

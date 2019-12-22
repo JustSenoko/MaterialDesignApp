@@ -1,4 +1,4 @@
-package com.blueroofstudio.materialdesignapp.ui.map;
+package com.blueroofstudio.materialdesignapp.ui.fragments.map;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -22,8 +22,8 @@ public class MapFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         mapViewModel =
                 ViewModelProviders.of(this).get(MapViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_map, container, false);
-        final TextView textView = root.findViewById(R.id.text_map);
+        View root = inflater.inflate(R.layout.fragment_text, container, false);
+        final TextView textView = root.findViewById(R.id.text_view);
         mapViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

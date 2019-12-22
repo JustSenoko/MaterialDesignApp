@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.activities.ThemeActivity">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/BtnStyle"
+        android:text="@string/btn1" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/BtnStyle"
+        android:text="@string/btn2" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/BtnStyle"
+        android:text="@string/btn3" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/BtnStyle"
+        android:text="@string/btn4" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/BtnStyle"
+        android:text="@string/btn5" />
+</LinearLayout>
