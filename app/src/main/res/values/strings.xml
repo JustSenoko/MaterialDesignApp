@@ -117,4 +117,9 @@
     <string name="tab_activity">Tab Activity</string>
     <string name="title_activity_bottom_navigation">Bottom Navigation Activity</string>
     <string name="menu_tab3">Tab 3</string>
+    <string name="btn1">btn1</string>
+    <string name="btn2">btn2</string>
+    <string name="btn3">btn3</string>
+    <string name="btn4">btn4</string>
+    <string name="btn5">btn5</string>
 </resources>
